@@ -1,0 +1,46 @@
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(125, 125, 237);
+}
+
+label{
+    font-size: 20px;
+    color: rgb(13, 96, 96);
+}
+
+input, textarea{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(59, 132, 215);
+}
+
+.submit-container{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 8px;
+    border-width: 0px;
+    background-color: rgba(12, 153, 158, 0.658);
+    border-radius: 10px;
+    font-size: 14px;
+    color: aliceblue;
+    width: 60px;
+    height: 35px;
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(3, 105, 13);
+}
